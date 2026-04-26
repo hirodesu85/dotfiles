@@ -1,0 +1,18 @@
+[init]
+	defaultBranch = main
+[user]
+	name = hirodesu
+	email = hirodesu85@gmail.com
+[core]
+    excludesfile = ~/.gitignore_global
+[push]
+	default = current
+[alias]
+	ss = status
+	br = branch
+	brd = branch -d
+	co = checkout
+	cob = checkout -b
+	ad = add 
+	cm = commit -m
+	mg = merge
