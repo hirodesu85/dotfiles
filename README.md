@@ -10,15 +10,8 @@ Prerequisites: [Homebrew](https://brew.sh/)
 brew install stow git
 git clone https://github.com/hirodesu85/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-stow git zsh
+stow */
 ```
-
-## Packages
-
-| Package | Description | Location |
-|---------|-------------|----------|
-| `git/`  | Git config and global gitignore | `~/.config/git/` |
-| `zsh/`  | Zsh config (zshenv, zshrc, zprofile) | `~/.zshenv`, `~/.config/zsh/` |
 
 ## Usage
 
@@ -37,4 +30,3 @@ Remove symlinks:
 cd ~/dotfiles
 stow -D <package>
 ```
-
