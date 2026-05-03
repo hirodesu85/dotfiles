@@ -1,5 +1,15 @@
 return {
   {
+    "WhoIsSethDaniel/mason-tool-installer.nvim",
+    dependencies = { "mason-org/mason.nvim" },
+    opts = {
+      ensure_installed = {
+        "prettierd",
+      },
+      run_on_start = true,
+    },
+  },
+  {
     "stevearc/conform.nvim",
     event = { "BufReadPre", "BufNewFile" },
     opts = {
@@ -12,13 +22,10 @@ return {
         html = { "prettierd", "prettier", stop_after_first = true },
         css = { "prettierd", "prettier", stop_after_first = true },
       },
-
-      -- 保存時に自動フォーマット（conformがBufWritePreを仕込む）
       format_on_save = {
         timeout_ms = 1000,
-        lsp_format = "never", -- LSPのformatは使わず、prettierに一本化
+        lsp_format = "never",
       },
     },
   },
 }
-
