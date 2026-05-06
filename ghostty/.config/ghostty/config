@@ -1,0 +1,5 @@
+# カラーテーマ
+theme = TokyoNight Moon
+
+# 左側のoptionをaltにする
+macos-option-as-alt = true
