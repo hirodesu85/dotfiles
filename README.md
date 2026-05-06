@@ -10,23 +10,7 @@ Prerequisites: [Homebrew](https://brew.sh/)
 brew install stow git
 git clone https://github.com/hirodesu85/dotfiles.git ~/dotfiles
 cd ~/dotfiles
+brew bundle
 stow */
 ```
 
-## Usage
-
-Add a new package:
-
-```bash
-cd ~/dotfiles
-mkdir <package>
-mv ~/<dotfile> <package>/<dotfile>
-stow <package>
-```
-
-Remove symlinks:
-
-```bash
-cd ~/dotfiles
-stow -D <package>
-```
