@@ -22,3 +22,7 @@ eval "$(starship init zsh)"
 alias cat='bat'
 alias ls='lsd'
 
+# ============================================================
+# Local config
+# ============================================================
+[ -f "$ZDOTDIR/.zshrc.local" ] && source "$ZDOTDIR/.zshrc.local"
