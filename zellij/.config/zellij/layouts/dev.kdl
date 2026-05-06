@@ -1,0 +1,34 @@
+layout {
+    default_tab_template {
+        // 一番上のタブバー
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+
+        // 真ん中のメイン作業コンテンツ
+        children
+
+        // 一番下のステータスバー
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+    tab name="開発" focus=true {
+        pane split_direction="vertical" {
+            pane size="50%" split_direction="horizontal" {
+                pane name="Editor" size="70%"
+                pane name="Git" size="30%"
+            }
+            pane name="AI" size="50%"
+        }
+    }
+
+    tab name="ログ" {
+        pane split_direction="horizontal" {
+            pane name="Server1"
+            pane name="Server2"
+        }
+    }
+}
+
