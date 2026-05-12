@@ -15,4 +15,4 @@
 	cm = commit -m
 	mg = merge
 [ghq]
-  root = ~/Documents
+  root = ~/Documents/ghq
