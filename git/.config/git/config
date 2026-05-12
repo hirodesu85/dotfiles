@@ -14,3 +14,5 @@
 	ad = add 
 	cm = commit -m
 	mg = merge
+[ghq]
+  root = ~/Documents
