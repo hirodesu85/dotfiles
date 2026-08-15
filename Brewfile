@@ -1,5 +1,3 @@
-# Improved shell history for zsh, bash, fish and nushell
-brew "atuin"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Clone of ls with colorful output, file type icons, and more
