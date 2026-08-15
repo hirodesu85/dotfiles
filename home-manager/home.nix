@@ -15,6 +15,10 @@
       ghq
       gh
       atuin
+      jq
+      lsd
+      tree-sitter
+      xcodegen
   ];
 
   # XDG対応

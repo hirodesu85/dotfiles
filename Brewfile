@@ -1,7 +1,3 @@
-# Lightweight and flexible command-line JSON processor
-brew "jq"
-# Clone of ls with colorful output, file type icons, and more
-brew "lsd"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -12,16 +8,10 @@ brew "stow"
 brew "supabase"
 # Formatting technology for Swift source code
 brew "swift-format"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # Parser generator tool
 brew "tree-sitter-cli"
-# Image format providing lossless and lossy compression for web images
-brew "webp"
 # Build server protocol implementation for integrating Xcode with sourcekit-lsp
 brew "xcode-build-server"
-# Generate your Xcode project from a spec file and your folder structure
-brew "xcodegen"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
