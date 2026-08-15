@@ -13,6 +13,7 @@
       lazygit
       bat
       ghq
+      gh
   ];
 
   # XDG対応
