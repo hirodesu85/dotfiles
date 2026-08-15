@@ -8,8 +8,6 @@ brew "gh"
 brew "ghq"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Simple terminal UI for git commands
-brew "lazygit"
 # Clone of ls with colorful output, file type icons, and more
 brew "lsd"
 # Polyglot runtime manager (asdf rust clone)
