@@ -11,6 +11,7 @@
       starship
       zellij
       lazygit
+      bat
   ];
 
   # XDG対応
