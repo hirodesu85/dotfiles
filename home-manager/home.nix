@@ -13,6 +13,7 @@
   # XDG対応
   xdg.configFile = {
       "git/config".source = ./git/config;
+      "git/ignore".source = ./git/ignore;
   };
 
   # XDG非対応
