@@ -7,7 +7,8 @@
   home.stateVersion = "26.05"; # Please read the comment before changing.
 
   home.packages = with pkgs; [
-    git
+      git
+      starship
   ];
 
   # XDG対応
@@ -16,6 +17,7 @@
       "git/ignore".source = ./git/ignore;
       "zsh/.zshrc".source = ./zsh/.zshrc;
       "zsh/.zprofile".source = ./zsh/.zprofile;
+      "starship.toml".source = ./starship/starship.toml;
   };
 
   # XDG非対応
