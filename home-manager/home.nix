@@ -12,6 +12,7 @@
       zellij
       lazygit
       bat
+      ghq
   ];
 
   # XDG対応
@@ -24,6 +25,7 @@
       "ghostty/config".source = ./ghostty/config;
       "zellij/config.kdl".source = ./zellij/config.kdl;
       "lazygit/config.yml".source = ./lazygit/config.yml;
+      "gh/config.yml".source = ./gh/config.yml;
   };
 
   # XDG非対応

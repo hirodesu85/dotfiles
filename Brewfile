@@ -2,8 +2,6 @@
 brew "atuin"
 # GitHub command-line tool
 brew "gh"
-# Remote repository management made easy
-brew "ghq"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Clone of ls with colorful output, file type icons, and more
