@@ -9,6 +9,7 @@
   home.packages = with pkgs; [
       git
       starship
+      zellij
   ];
 
   # XDG対応
@@ -19,6 +20,7 @@
       "zsh/.zprofile".source = ./zsh/.zprofile;
       "starship.toml".source = ./starship/starship.toml;
       "ghostty/config".source = ./ghostty/config;
+      "zellij/config.kdl".source = ./zellij/config.kdl;
   };
 
   # XDG非対応
