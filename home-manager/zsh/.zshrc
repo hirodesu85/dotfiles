@@ -6,8 +6,8 @@ export HISTFILE="$XDG_STATE_HOME/zsh/history"
 # ============================================================
 # Zsh plugins
 # ============================================================
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.nix-profile/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.nix-profile/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ============================================================
 # Tools

@@ -19,6 +19,8 @@
       lsd
       tree-sitter
       xcodegen
+      zsh-autosuggestions
+      zsh-syntax-highlighting
   ];
 
   # XDG対応
