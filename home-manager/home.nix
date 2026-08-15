@@ -18,6 +18,7 @@
       "zsh/.zshrc".source = ./zsh/.zshrc;
       "zsh/.zprofile".source = ./zsh/.zprofile;
       "starship.toml".source = ./starship/starship.toml;
+      "ghostty/config".source = ./ghostty/config;
   };
 
   # XDG非対応
