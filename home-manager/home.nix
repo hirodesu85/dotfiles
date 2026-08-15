@@ -14,6 +14,7 @@
       bat
       ghq
       gh
+      atuin
   ];
 
   # XDG対応
@@ -27,6 +28,7 @@
       "zellij/config.kdl".source = ./zellij/config.kdl;
       "lazygit/config.yml".source = ./lazygit/config.yml;
       "gh/config.yml".source = ./gh/config.yml;
+      "atuin/config.toml".source = ./atuin/config.toml;
   };
 
   # XDG非対応
