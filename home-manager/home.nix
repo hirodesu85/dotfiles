@@ -10,6 +10,7 @@
       git
       starship
       zellij
+      lazygit
   ];
 
   # XDG対応
@@ -21,6 +22,7 @@
       "starship.toml".source = ./starship/starship.toml;
       "ghostty/config".source = ./ghostty/config;
       "zellij/config.kdl".source = ./zellij/config.kdl;
+      "lazygit/config.yml".source = ./lazygit/config.yml;
   };
 
   # XDG非対応
