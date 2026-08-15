@@ -14,10 +14,13 @@
   xdg.configFile = {
       "git/config".source = ./git/config;
       "git/ignore".source = ./git/ignore;
+      "zsh/.zshrc".source = ./zsh/.zshrc;
+      "zsh/.zprofile".source = ./zsh/.zprofile;
   };
 
   # XDG非対応
   home.file = {
+      ".zshenv".source = ./zsh/.zshenv;
   };
 
   home.sessionVariables = {
