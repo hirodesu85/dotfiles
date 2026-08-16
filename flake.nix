@@ -8,10 +8,14 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nixvim = {
+      url = "github:nix-community/nixvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
-    { nixpkgs, home-manager, ... }:
+    { nixpkgs, home-manager, nixvim, ... }:
     let
       system = "aarch64-darwin";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -20,9 +24,10 @@
       homeConfigurations."hiro" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
 
-        # Specify your home configuration modules here, for example,
-        # the path to your home.nix.
-        modules = [ ./home-manager/home.nix ];
+        modules = [
+          nixvim.homeModules.nixvim
+          ./home-manager/home.nix
+        ];
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
