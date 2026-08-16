@@ -28,6 +28,8 @@
       ripgrep
       mise
       herdr
+      zoxide
+      fzf
   ];
 
   # XDG対応

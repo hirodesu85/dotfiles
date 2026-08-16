@@ -15,6 +15,7 @@ source $HOME/.nix-profile/share/zsh-syntax-highlighting/zsh-syntax-highlighting.
 eval "$(atuin init zsh)"
 eval "$(mise activate zsh)"
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # ============================================================
 # Aliases
