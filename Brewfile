@@ -1,5 +1,3 @@
-# Polyglot runtime manager (asdf rust clone)
-brew "mise"
 # Enable Windows-like alt-tab
 cask "alt-tab"
 # Terminal-based AI coding assistant
@@ -12,5 +10,3 @@ cask "dbeaver-community"
 cask "ghostty"
 # Control your tools with a few keystrokes
 cask "raycast"
-npm "@anthropic-ai/claude-code"
-npm "corepack"

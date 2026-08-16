@@ -26,6 +26,7 @@
       zsh-autosuggestions
       zsh-syntax-highlighting
       ripgrep
+      mise
   ];
 
   # XDG対応
