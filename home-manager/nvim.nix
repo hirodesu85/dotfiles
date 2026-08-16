@@ -88,5 +88,13 @@
         };
       };
     };
+
+    plugins.treesitter = {
+      enable = true;
+      settings = {
+        highlight.enable = true;
+      };
+      grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
+    };
   };
 }
