@@ -56,6 +56,12 @@
         action.__raw = "vim.lsp.buf.definition";
         options.desc = "定義へジャンプ";
       }
+      {
+        mode = "n";
+        key = "<C-n>";
+        action = "<cmd>NvimTreeToggle<CR>";
+        options.desc = "Toggle NvimTree";
+      }
     ];
 
     plugins.telescope = {
@@ -69,6 +75,16 @@
         "<leader>fg" = {
           action = "live_grep";
           options.desc = "Telescope: live grep";
+        };
+      };
+    };
+
+    plugins.nvim-tree = {
+      enable = true;
+      settings = {
+        filters = {
+          git_ignored = false; # gitignore 対象も表示する
+          custom = [ ".DS_Store" ".git" ];
         };
       };
     };
