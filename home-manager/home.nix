@@ -27,6 +27,7 @@
       zsh-syntax-highlighting
       ripgrep
       mise
+      herdr
   ];
 
   # XDG対応
