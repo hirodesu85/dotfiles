@@ -25,6 +25,7 @@
       xcodegen
       zsh-autosuggestions
       zsh-syntax-highlighting
+      ripgrep
   ];
 
   # XDG対応
