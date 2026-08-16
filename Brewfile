@@ -4,8 +4,6 @@ brew "mise"
 brew "neovim"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Postgres development platform
-brew "supabase"
 # Formatting technology for Swift source code
 brew "swift-format"
 # Parser generator tool
