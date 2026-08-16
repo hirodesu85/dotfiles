@@ -1,15 +1,5 @@
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
-brew "stow"
-# Formatting technology for Swift source code
-brew "swift-format"
-# Parser generator tool
-brew "tree-sitter-cli"
-# Build server protocol implementation for integrating Xcode with sourcekit-lsp
-brew "xcode-build-server"
 # Enable Windows-like alt-tab
 cask "alt-tab"
 # Terminal-based AI coding assistant

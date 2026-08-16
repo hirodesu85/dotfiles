@@ -67,6 +67,13 @@
     plugins.telescope = {
       enable = true;
       extensions.fzf-native.enable = true;
+      settings = {
+        defaults.file_ignore_patterns = [ "^.git/" "%.DS_Store$" ];
+        pickers = {
+          find_files.hidden = true;
+          live_grep.additional_args = [ "--hidden" ];
+        };
+      };
       keymaps = {
         "<leader>ff" = {
           action = "find_files";
@@ -95,6 +102,15 @@
         highlight.enable = true;
       };
       grammarPackages = pkgs.vimPlugins.nvim-treesitter.allGrammars;
+    };
+
+    plugins.lsp = {
+      enable = true;
+      servers.sourcekit = {
+        enable = true;
+        package = null;
+        cmd = [ "xcrun" "sourcekit-lsp" ];
+      };
     };
   };
 }
