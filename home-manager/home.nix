@@ -30,6 +30,7 @@
       herdr
       zoxide
       fzf
+      maple-mono.NF
   ];
 
   # XDG対応
@@ -55,4 +56,5 @@
   };
 
   programs.home-manager.enable = true;
+  fonts.fontconfig.enable = true;
 }
