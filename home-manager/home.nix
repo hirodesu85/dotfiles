@@ -45,6 +45,7 @@
       "lazygit/config.yml".source = ./lazygit/config.yml;
       "gh/config.yml".source = ./gh/config.yml;
       "atuin/config.toml".source = ./atuin/config.toml;
+      "herdr/config.toml".source = ./herdr/config.toml;
   };
 
   # XDG非対応
