@@ -31,6 +31,7 @@
       zoxide
       fzf
       maple-mono.NF
+      rounded-mgenplus
   ];
 
   # XDG対応
