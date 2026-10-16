@@ -57,6 +57,19 @@
   home.sessionVariables = {
   };
 
+  # AIエージェント（本体はBrewfileのcaskで導入）
+  programs.claude-code = {
+      enable = true;
+      package = null;
+      context = ./ai/AGENTS.md;
+  };
+
+  programs.codex = {
+      enable = true;
+      package = null;
+      context = ./ai/AGENTS.md;
+  };
+
   programs.home-manager.enable = true;
   fonts.fontconfig.enable = true;
 }
